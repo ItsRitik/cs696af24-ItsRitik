@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
+import Maingame from "./components/mainGame";
 import "./App.css";
 
 function App() {
-  return <div></div>;
+  return (
+    <div className="app">
+      <Maingame />
+    </div>
+  );
 }
 
 export default App;
