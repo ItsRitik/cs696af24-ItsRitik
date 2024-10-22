@@ -1,0 +1,10 @@
+/* components/Header.css */
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed; /* Keeps the header at the top */
+  top: 0;
+}
