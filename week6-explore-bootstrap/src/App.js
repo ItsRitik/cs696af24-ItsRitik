@@ -4,7 +4,7 @@ import Sidebar from "./components/sidebar";
 import Header from "./components/Header";
 import SummaryCards from "./components/summeryCard";
 import ChartWidget from "./components/chartWidget";
-// import RecentActivity from "./components/RecentActivity";
+import RecentActivity from "./components/activityTable";
 import PerformanceMetrics from "./components/performanceMetrix";
 // import Footer from "./components/Footer";
 import { Container, Row, Col } from "react-bootstrap";
@@ -27,7 +27,7 @@ const App = () => {
                 <PerformanceMetrics />
               </Col>
             </Row>
-            {/* <RecentActivity /> */}
+            <RecentActivity />
           </Container>
           {/* <Footer /> */}
         </div>
