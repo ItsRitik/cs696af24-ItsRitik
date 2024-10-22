@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import SummaryCards from "./components/summeryCard";
 import ChartWidget from "./components/chartWidget";
 // import RecentActivity from "./components/RecentActivity";
-// import PerformanceMetrics from "./components/PerformanceMetrics";
+import PerformanceMetrics from "./components/performanceMetrix";
 // import Footer from "./components/Footer";
 import { Container, Row, Col } from "react-bootstrap";
 import "./App.css"; // Import global styles
@@ -23,9 +23,9 @@ const App = () => {
               <Col md={8}>
                 <ChartWidget />
               </Col>
-              {/* <Col md={4}>
+              <Col md={4}>
                 <PerformanceMetrics />
-              </Col> */}
+              </Col>
             </Row>
             {/* <RecentActivity /> */}
           </Container>
