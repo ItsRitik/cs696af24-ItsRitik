@@ -1,0 +1,15 @@
+/* components/Sidebar.css */
+.sidebar-container {
+  width: 20%; /* Default width */
+  transition: width 0.3s ease-in-out; /* Smooth transition */
+}
+
+.sidebar-container.collapsed {
+  width: 4%; /* Collapsed width */
+}
+
+.sidebar-container .nav-link {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

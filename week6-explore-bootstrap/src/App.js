@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from "react";
+import Sidebar from "./components/sidebar";
+// import Header from "./components/Header";
+// import SummaryCards from "./components/SummaryCards";
+// import ChartWidget from "./components/ChartWidget";
+// import RecentActivity from "./components/RecentActivity";
+// import PerformanceMetrics from "./components/PerformanceMetrics";
+// import Footer from "./components/Footer";
+// import { Container, Row, Col } from "react-bootstrap";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div className="d-flex">
+    <Sidebar />
+    {/* <div className="flex-grow-1">
+      <Header />
+      <Container fluid className="mt-4">
+        <SummaryCards />
+        <Row>
+          <Col md={8}>
+            <ChartWidget />
+          </Col>
+          <Col md={4}>
+            <PerformanceMetrics />
+          </Col>
+        </Row>
+        <RecentActivity />
+      </Container>
+      <Footer /> 
+    </div>*/}
+  </div>
+);
 
 export default App;
