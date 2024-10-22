@@ -2,12 +2,12 @@
 import React from "react";
 import Sidebar from "./components/sidebar";
 import Header from "./components/Header";
-// import SummaryCards from "./components/SummaryCards";
-// import ChartWidget from "./components/ChartWidget";
+import SummaryCards from "./components/summeryCard";
+import ChartWidget from "./components/chartWidget";
 // import RecentActivity from "./components/RecentActivity";
 // import PerformanceMetrics from "./components/PerformanceMetrics";
 // import Footer from "./components/Footer";
-// import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./App.css"; // Import global styles
 
 const App = () => {
@@ -16,21 +16,21 @@ const App = () => {
       <Header />
       <div className=" d-flex">
         <Sidebar />
-        {/* <div className="content-container">
+        <div className="content-container">
           <Container fluid className="mt-4">
             <SummaryCards />
             <Row>
               <Col md={8}>
                 <ChartWidget />
               </Col>
-              <Col md={4}>
+              {/* <Col md={4}>
                 <PerformanceMetrics />
-              </Col>
+              </Col> */}
             </Row>
-            <RecentActivity />
+            {/* <RecentActivity /> */}
           </Container>
-          <Footer />
-        </div> */}
+          {/* <Footer /> */}
+        </div>
       </div>
     </div>
   );
