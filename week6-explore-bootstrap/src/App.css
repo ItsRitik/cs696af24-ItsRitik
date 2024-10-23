@@ -1,0 +1,46 @@
+/* App.css */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar-container {
+  height: calc(100vh - 60px);
+  position: fixed;
+  top: 60px;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.content-container {
+  margin-left: 5%;
+  padding: 20px;
+  width: 100%;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-layout {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
