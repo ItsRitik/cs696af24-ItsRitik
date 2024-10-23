@@ -8,14 +8,14 @@ import {
   FaCog,
   FaSignOutAlt,
 } from "react-icons/fa";
-import "./sidebar.css"; // Import the CSS file for styling
+import "./sidebar.css";
 
 const Sidebar = () => {
   const [collapsed, setCollapsed] = useState(false);
 
   return (
     <div
-      className={`sidebar-container d-flex flex-column vh-100 bg-light ${
+      className={`sidebar-container h-100vh  bg-light ${
         collapsed ? "collapsed" : ""
       }`}
     >
